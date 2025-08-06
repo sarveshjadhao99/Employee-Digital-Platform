@@ -1,0 +1,27 @@
+
+# .gitignore for Django projects
+
+# Python cache
+*.pyc
+__pycache__/
+
+# Virtual environment
+myenv/
+
+# Database
+*.sqlite3
+db.sqlite3
+
+# Django migrations
+migrations/
+
+# Environment variables and secrets
+*.env
+
+# IDE files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
